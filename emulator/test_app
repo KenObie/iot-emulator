@@ -1,0 +1,11 @@
+import json
+
+
+with open('emulator.json', 'r') as storage:
+    data = json.load(storage)
+if data['am2302_temp_in_c'] < 45:
+    print('HEAT ON')
+elif data['am2302_temp_in_c'] == 50:
+    print('HEAT OFF')
+elif data['am2302_temp_in_c'] > 70:
+        print('AC ON')

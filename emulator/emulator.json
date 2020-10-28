@@ -1,0 +1,23 @@
+{
+    "LED_blue": "off",
+    "LED_green": "off",
+    "LED_red": "off",
+    "LED_white": "off",
+    "LED_yellow": "off",
+    "am2302_humidity_pct": 76,
+    "am2302_temp_in_c": 87,
+    "bme280_altitude_in_m": 1500,
+    "bme280_humidity_pct": 90,
+    "bme280_pressure_in_hpa": 900,
+    "bme280_sea_level_pressure": 1072,
+    "bme280_temp_in_c": 100,
+    "cpu_pct_utilization": 100,
+    "cpu_temp_in_c": 100,
+    "pir_motion_detected": false,
+    "tcs34725_color_blue": 182,
+    "tcs34725_color_clear": 0,
+    "tcs34725_color_green": 171,
+    "tcs34725_color_red": 171,
+    "tcs34725_color_temp_k": "11919.03",
+    "tcs34725_luminosity_lux": "81.18"
+}

@@ -1,0 +1,6 @@
+import random
+
+
+temperature , humidity = random.random()*20+10, random.random()*20 + 20
+print('am2302_temp_in_c:', temperature)
+print('am2302_humidity_pct:', humidity)

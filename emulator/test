@@ -1,0 +1,8 @@
+import json
+
+with open('emulator.json', 'r') as storage:
+    data = json.load(storage)
+    data['LED_red'] = "on"
+
+with open('emulator.json', 'w') as storage:
+    json.dump(data, storage, sort_keys = True, indent = 4)
